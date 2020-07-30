@@ -11,10 +11,95 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="240295f6-6e47-40b3-8a52-99bd9adc0cfe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/auth/src/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/app.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/src/routes/current-user.ts" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/routes/current-user.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/src/routes/signout.ts" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/routes/signout.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/build-manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/cache/next-babel-loader/014cf5e1b7da93ff74368b355caa6d30.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/cache/next-babel-loader/0465732d2bfc299db9d18c4346725f11.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/cache/next-babel-loader/0586606aeb855cb5df25c61ccd562f44.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/cache/next-babel-loader/0c5e60f74147f711ff5c838145dabd84.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/cache/next-babel-loader/0f0c7e3718199c60c631bfa3ed0cf351.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/cache/next-babel-loader/12ecfaba37a6bc3dd7ce2d5aef4ff79e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/cache/next-babel-loader/146176898f3fe6be8faa55243d48c428.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/cache/next-babel-loader/148b8b1721067f107968974b5069611d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/cache/next-babel-loader/1e6f9b55d84a0bdff52f21de630affa9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/cache/next-babel-loader/2192549d338f87c9c75ba440f10be718.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/cache/next-babel-loader/25b42b8755613e6e5ab4444cae982195.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/cache/next-babel-loader/39c6576d1ea11123bc686632b6964f47.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/cache/next-babel-loader/3ae5fe995cc8918001a610f547472f62.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/cache/next-babel-loader/3dcaf84e747e223a271fd4d6599d58a6.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/cache/next-babel-loader/42dc190ecce77f6c8e42bac89d81d3dc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/cache/next-babel-loader/450e95812b909ebe90511e739a1cbf77.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/cache/next-babel-loader/482c1dbfcc62005dda420c88a0d98453.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/cache/next-babel-loader/579cba25771f8cb61fbccb60f541e0f5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/cache/next-babel-loader/5ab97ffbe9286708d48da1d46771f78f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/cache/next-babel-loader/5c1a0156cc99c0f443a813a15b5ea02c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/cache/next-babel-loader/687e892d8a1aae60b07a2c29e5832fdd.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/cache/next-babel-loader/75059f488dbd5c34e9184458979635e9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/cache/next-babel-loader/78519ba949a0aa546ca262a8f146cf18.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/cache/next-babel-loader/8506930d3663360dbe1784aaad2b4ba3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/cache/next-babel-loader/8f1a097a148763b609c8d41a94f96842.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/cache/next-babel-loader/92b87b41dad7b2dc6fa6cab933754af8.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/cache/next-babel-loader/995a47767fdea937cf3d620c62a3141d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/cache/next-babel-loader/9a3e673df5dc4093a0f9e85c1334fbea.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/cache/next-babel-loader/9d375adb61566919c9ec844f3dfe94d6.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/cache/next-babel-loader/9d791d7d7c8a206fa3a1ee6211edab67.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/cache/next-babel-loader/a2f2f367fe14cbb62aea688af5e5a75b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/cache/next-babel-loader/a5d7cc717ddfe9a4447d51d1ef2cdd4a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/cache/next-babel-loader/ad95ea8e355f2e8b560e4a306c0fcd35.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/cache/next-babel-loader/b04919bd4a71482e4b87da8600222197.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/cache/next-babel-loader/b2b657738aecf227d4023ce0c1f384c2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/cache/next-babel-loader/b3e3a481ff1ca4d761dc92d6a835163d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/cache/next-babel-loader/bce897928f7231bd87db2068a702a4ab.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/cache/next-babel-loader/cd0bae3c37d25154a1364986bb600ced.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/cache/next-babel-loader/d0ff54d3d17707f4841a070e57a34cae.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/cache/next-babel-loader/d3a52a8d294b248f21b9d2cb877c6bcb.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/cache/next-babel-loader/d5757514cbe4f2914199bb10623d32f1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/cache/next-babel-loader/e34fee776d6c138eb019d2aff8b0ff00.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/cache/next-babel-loader/e811b7dda683a381c34817238500232e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/cache/next-babel-loader/e9454bb16789c520d7a214cabe7a75f3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/cache/next-babel-loader/ea41b34e676be99a30a3c19dd9dc3886.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/cache/next-babel-loader/eb0b32348aa56e9f66adbbd6a94f7fba.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/cache/next-babel-loader/ef42c3a4898866cab0d60113f617f66f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/cache/next-babel-loader/f0c26dd345226882055e813d3a2e6ff4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/cache/next-babel-loader/fe736e2a4d003be1caf2b20d21b018dc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/react-loadable-manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/server/init-server.js.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/server/on-error-server.js.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/server/pages-manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/server/pages/_app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/server/pages/_document.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/server/pages/_error.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/server/pages/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/server/pages/next/dist/pages/_error.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/server/ssr-module-cache.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/static/chunks/0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/static/chunks/amp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/static/chunks/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/static/chunks/pages/_app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/static/chunks/pages/_error.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/static/chunks/pages/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/static/chunks/pages/next/dist/pages/_error.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/static/chunks/polyfills.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/static/chunks/react-refresh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/static/chunks/webpack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/static/development/_buildManifest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/static/development/_ssgManifest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/static/webpack/57344a94ca7c31652227.hot-update.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.next/static/webpack/805123dfc87faec5ef85.hot-update.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/api/build-client.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/components/header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/next.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/pages/_app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/pages/auth/signin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/pages/auth/signup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/pages/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/k8s/client-depl.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/k8s/ingress-srv.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/infra/k8s/ingress-srv.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skaffold.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/skaffold.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +129,6 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -59,6 +143,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/pages/auth" />
       <recent name="$PROJECT_DIR$/auth" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -78,7 +163,7 @@
       <workItem from="1595241374239" duration="8314000" />
       <workItem from="1596102910742" duration="106000" />
       <workItem from="1596120540623" duration="749000" />
-      <workItem from="1596127481580" duration="2929000" />
+      <workItem from="1596127481580" duration="13548000" />
     </task>
     <servers />
   </component>
