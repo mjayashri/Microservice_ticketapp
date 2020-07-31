@@ -11,18 +11,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="240295f6-6e47-40b3-8a52-99bd9adc0cfe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/ticketapp.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/infra/k8s/ticket-depl.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/k8s/nats-depl.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nats-test/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nats-test/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nats-test/src/listener.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nats-test/src/publisher.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nats-test/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/src/routes/signin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/routes/signin.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/src/routes/signup.ts" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/routes/signup.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/build/middlewares/error-handler.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/middlewares/error-handler.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infra/k8s/auth-depl.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/infra/k8s/auth-depl.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infra/k8s/tickets-depl.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skaffold.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/skaffold.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +34,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/nats-test/package.json" />
   </component>
   <component name="ProjectId" id="1ev9Lo3EZZhAm3ZQ02cIxQcP6sR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -91,7 +90,7 @@
       <workItem from="1596160959990" duration="592000" />
       <workItem from="1596193936368" duration="973000" />
       <workItem from="1596195095787" duration="513000" />
-      <workItem from="1596195615596" duration="12497000" />
+      <workItem from="1596195615596" duration="16814000" />
     </task>
     <servers />
   </component>
