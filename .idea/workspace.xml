@@ -11,38 +11,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="240295f6-6e47-40b3-8a52-99bd9adc0cfe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/infra/k8s/tickets-depl.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/infra/k8s/tickets-mongo-depl.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tickets/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tickets/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tickets/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tickets/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tickets/src/app.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tickets/src/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tickets/src/routes/__test__/new.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tickets/src/routes/new.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tickets/src/test/setup.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tickets/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tickets/src/models/ticket.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tickets/src/routes/__test__/index.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tickets/src/routes/__test__/show.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tickets/src/routes/__test__/update.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tickets/src/routes/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tickets/src/routes/show.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tickets/src/routes/update.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auth/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/auth/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auth/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/auth/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/src/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/app.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/src/errors/bad-request-error.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/src/errors/custom-error.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/src/errors/database-correctionerror.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/src/errors/not-authorized-error.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/src/errors/not-found-error.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/src/errors/request-validation-error.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/src/middlewares/current-user.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/src/middlewares/error-handler.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/src/middlewares/require-auth.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/src/middlewares/validate-request.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/src/routes/current-user.ts" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/routes/current-user.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/src/routes/signin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/routes/signin.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/src/routes/signup.ts" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/routes/signup.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infra/k8s/auth-depl.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/infra/k8s/auth-depl.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/middlewares/error-handler.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/middlewares/error-handler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/k8s/ingress-srv.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/infra/k8s/ingress-srv.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tickets/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/tickets/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tickets/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/tickets/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tickets/src/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tickets/src/app.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tickets/src/routes/__test__/new.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tickets/src/routes/__test__/new.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tickets/src/routes/new.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tickets/src/routes/new.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tickets/src/test/setup.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tickets/src/test/setup.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +93,7 @@
       <workItem from="1595241374239" duration="8314000" />
       <workItem from="1596102910742" duration="106000" />
       <workItem from="1596120540623" duration="749000" />
-      <workItem from="1596127481580" duration="18887000" />
+      <workItem from="1596127481580" duration="24464000" />
     </task>
     <servers />
   </component>
@@ -138,22 +124,22 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.800/1280.0.1280.720@0.0.1280.800" timestamp="1596129781188" />
-    <state width="1259" height="212" key="GridCell.Tab.0.bottom" timestamp="1596120620944">
+    <state width="1259" height="212" key="GridCell.Tab.0.bottom" timestamp="1596155723955">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800/1280.0.1280.720@0.0.1280.800" timestamp="1596120620944" />
-    <state width="1259" height="212" key="GridCell.Tab.0.center" timestamp="1596120620939">
+    <state width="1259" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800/1280.0.1280.720@0.0.1280.800" timestamp="1596155723955" />
+    <state width="1259" height="212" key="GridCell.Tab.0.center" timestamp="1596155723950">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="212" key="GridCell.Tab.0.center/0.0.1280.800/1280.0.1280.720@0.0.1280.800" timestamp="1596120620939" />
-    <state width="1259" height="212" key="GridCell.Tab.0.left" timestamp="1596120620936">
+    <state width="1259" height="212" key="GridCell.Tab.0.center/0.0.1280.800/1280.0.1280.720@0.0.1280.800" timestamp="1596155723950" />
+    <state width="1259" height="212" key="GridCell.Tab.0.left" timestamp="1596155723946">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="212" key="GridCell.Tab.0.left/0.0.1280.800/1280.0.1280.720@0.0.1280.800" timestamp="1596120620936" />
-    <state width="1259" height="212" key="GridCell.Tab.0.right" timestamp="1596120620941">
+    <state width="1259" height="212" key="GridCell.Tab.0.left/0.0.1280.800/1280.0.1280.720@0.0.1280.800" timestamp="1596155723946" />
+    <state width="1259" height="212" key="GridCell.Tab.0.right" timestamp="1596155723952">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="212" key="GridCell.Tab.0.right/0.0.1280.800/1280.0.1280.720@0.0.1280.800" timestamp="1596120620941" />
+    <state width="1259" height="212" key="GridCell.Tab.0.right/0.0.1280.800/1280.0.1280.720@0.0.1280.800" timestamp="1596155723952" />
     <state x="140" y="39" key="SettingsEditor" timestamp="1595257456600">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
