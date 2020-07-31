@@ -41,7 +41,6 @@ async(req:Request, res:Response) => {
   );
 
   // Store it on session object
-  //@ts-ignore
   req.session = {
     jwt: userJwt,
   };
