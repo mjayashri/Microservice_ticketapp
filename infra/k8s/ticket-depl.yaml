@@ -23,7 +23,7 @@ spec:
             - name: NATS_URL
               value: 'http://nats-srv:4222'
             - name: NATS_CLUSTER_ID
-              value: ticketing
+              value: ticketapp
             - name: MONGO_URI
               value: 'mongodb://auth-mongo-srv:27017/auth'
             - name: JWT_KEY
