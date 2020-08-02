@@ -11,11 +11,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="240295f6-6e47-40b3-8a52-99bd9adc0cfe" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/tests-auth.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/tests-auth.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/tests-orders.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/tests-orders.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/tests-payments.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/tests-payments.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/tests-tickets.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/tests-tickets.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/build/events/subjects.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/events/subjects.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/build/events/subjects.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/events/subjects.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/build/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/index.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/build/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orders/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/orders/src/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
