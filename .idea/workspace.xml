@@ -11,28 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="240295f6-6e47-40b3-8a52-99bd9adc0cfe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/components/footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/pages/orders/[orderId].js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/pages/orders/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/pages/tickets/[ticketId].js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/pages/tickets/new.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/components/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/hooks/use-request.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/hooks/use-request.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/_app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/build/events/subjects.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/events/subjects.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/build/events/subjects.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/events/subjects.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/build/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/index.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/build/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orders/src/routes/new.ts" beforeDir="false" afterPath="$PROJECT_DIR$/orders/src/routes/new.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payments/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/payments/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payments/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/payments/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tickets/src/routes/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tickets/src/routes/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +112,7 @@
       <workItem from="1596366230437" duration="3718000" />
       <workItem from="1596371597363" duration="2567000" />
       <workItem from="1596389935931" duration="10078000" />
-      <workItem from="1596401873224" duration="1768000" />
+      <workItem from="1596401873224" duration="2130000" />
     </task>
     <servers />
   </component>
