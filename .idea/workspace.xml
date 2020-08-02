@@ -11,43 +11,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="240295f6-6e47-40b3-8a52-99bd9adc0cfe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/infra/k8s/payments-depl.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/infra/k8s/payments-mongo-depl.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orders/src/events/listeners/payment-created-listener.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payments/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payments/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payments/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payments/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payments/src/__mocks__/nats-wrapper.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payments/src/__mocks__/stripe.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payments/src/app.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payments/src/events/listeners/__test__/order-cancelled-listener.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payments/src/events/listeners/__test__/order-created-listener.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payments/src/events/listeners/order-cancelled-listener.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payments/src/events/listeners/order-created-listener.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payments/src/events/listeners/queue-group-name.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payments/src/events/publishers/payment-created-publisher.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payments/src/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payments/src/models/order.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payments/src/models/payment.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payments/src/nats-wrapper.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payments/src/routes/__test__/new.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payments/src/routes/new.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payments/src/stripe.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payments/src/test/setup.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payments/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/components/footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/pages/orders/[orderId].js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/pages/orders/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/pages/tickets/[ticketId].js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/pages/tickets/new.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/components/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/components/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/hooks/use-request.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/hooks/use-request.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/_app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/pages/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/build/events/subjects.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/events/subjects.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/build/events/subjects.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/events/subjects.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/build/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/index.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/build/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infra/k8s/ingress-srv.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/infra/k8s/ingress-srv.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orders/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/orders/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orders/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/orders/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orders/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/orders/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skaffold.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/skaffold.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tickets/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/tickets/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tickets/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/tickets/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders/src/routes/new.ts" beforeDir="false" afterPath="$PROJECT_DIR$/orders/src/routes/new.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payments/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/payments/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payments/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/payments/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tickets/src/routes/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tickets/src/routes/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +68,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/tickets/src/events/listeners/__test__" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/client/pages/orders" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -95,17 +80,18 @@
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/nats-test/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/tickets/src/events/listeners/__test__" />
-      <recent name="$PROJECT_DIR$/tickets/src/events/listeners" />
-      <recent name="$PROJECT_DIR$/infra/k8s" />
-      <recent name="$PROJECT_DIR$/common/src/events" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/tickets/src" />
       <recent name="$PROJECT_DIR$/client/pages/auth" />
       <recent name="$PROJECT_DIR$/auth" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/pages/orders" />
+      <recent name="$PROJECT_DIR$/tickets/src/events/listeners/__test__" />
+      <recent name="$PROJECT_DIR$/tickets/src/events/listeners" />
+      <recent name="$PROJECT_DIR$/infra/k8s" />
+      <recent name="$PROJECT_DIR$/common/src/events" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -141,7 +127,8 @@
       <workItem from="1596328769717" duration="2275000" />
       <workItem from="1596366230437" duration="3718000" />
       <workItem from="1596371597363" duration="2567000" />
-      <workItem from="1596389935931" duration="1215000" />
+      <workItem from="1596389935931" duration="10078000" />
+      <workItem from="1596401873224" duration="1768000" />
     </task>
     <servers />
   </component>
@@ -172,22 +159,26 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.800/1280.0.1280.720@0.0.1280.800" timestamp="1596129781188" />
-    <state width="1259" height="283" key="GridCell.Tab.0.bottom" timestamp="1596331148319">
+    <state width="1259" height="283" key="GridCell.Tab.0.bottom" timestamp="1596401961993">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="283" key="GridCell.Tab.0.bottom/0.0.1280.800/1280.0.1280.720@0.0.1280.800" timestamp="1596331148319" />
-    <state width="1259" height="283" key="GridCell.Tab.0.center" timestamp="1596331148316">
+    <state width="1259" height="283" key="GridCell.Tab.0.bottom/0.0.1280.800/1280.0.1280.720@0.0.1280.800" timestamp="1596401824762" />
+    <state width="1259" height="283" key="GridCell.Tab.0.bottom/0.0.1280.800/1280.23.1280.697@0.0.1280.800" timestamp="1596401961993" />
+    <state width="1259" height="283" key="GridCell.Tab.0.center" timestamp="1596401961991">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="283" key="GridCell.Tab.0.center/0.0.1280.800/1280.0.1280.720@0.0.1280.800" timestamp="1596331148316" />
-    <state width="1259" height="283" key="GridCell.Tab.0.left" timestamp="1596331148314">
+    <state width="1259" height="283" key="GridCell.Tab.0.center/0.0.1280.800/1280.0.1280.720@0.0.1280.800" timestamp="1596401824759" />
+    <state width="1259" height="283" key="GridCell.Tab.0.center/0.0.1280.800/1280.23.1280.697@0.0.1280.800" timestamp="1596401961991" />
+    <state width="1259" height="283" key="GridCell.Tab.0.left" timestamp="1596401961989">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="283" key="GridCell.Tab.0.left/0.0.1280.800/1280.0.1280.720@0.0.1280.800" timestamp="1596331148314" />
-    <state width="1259" height="283" key="GridCell.Tab.0.right" timestamp="1596331148317">
+    <state width="1259" height="283" key="GridCell.Tab.0.left/0.0.1280.800/1280.0.1280.720@0.0.1280.800" timestamp="1596401824757" />
+    <state width="1259" height="283" key="GridCell.Tab.0.left/0.0.1280.800/1280.23.1280.697@0.0.1280.800" timestamp="1596401961989" />
+    <state width="1259" height="283" key="GridCell.Tab.0.right" timestamp="1596401961992">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="283" key="GridCell.Tab.0.right/0.0.1280.800/1280.0.1280.720@0.0.1280.800" timestamp="1596331148317" />
+    <state width="1259" height="283" key="GridCell.Tab.0.right/0.0.1280.800/1280.0.1280.720@0.0.1280.800" timestamp="1596401824760" />
+    <state width="1259" height="283" key="GridCell.Tab.0.right/0.0.1280.800/1280.23.1280.697@0.0.1280.800" timestamp="1596401961992" />
     <state x="140" y="39" key="SettingsEditor" timestamp="1595257456600">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
