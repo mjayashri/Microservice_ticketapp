@@ -11,7 +11,7 @@ build:
   googleCloudBuild:
     projectId: ticketapp-dev-283912
   artifacts:
-    - image: us.gcr.io/ticketapp-dev-283912/auth
+    - image: jayashri94/auth
       context: auth
       docker:
         dockerfile: Dockerfile
@@ -19,7 +19,7 @@ build:
         manual:
           - src: 'src/**/*.ts'
             dest: .
-    - image: us.gcr.io/ticketapp-dev-283912/client
+    - image: jayashri94/client
       context: client
       docker:
         dockerfile: Dockerfile
@@ -27,7 +27,7 @@ build:
         manual:
           - src: '**/*.js'
             dest: .
-    - image:  us.gcr.io/ticketapp-dev-283912/tickets
+    - image:  jayashri94/tickets
       context: tickets
       docker:
         dockerfile: Dockerfile
@@ -35,7 +35,7 @@ build:
         manual:
           - src: 'src/**/*.ts'
             dest: .
-    - image:  us.gcr.io/ticketapp-dev-283912/orders
+    - image:  jayashri94/orders
       context: orders
       docker:
         dockerfile: Dockerfile
@@ -43,7 +43,7 @@ build:
         manual:
           - src: 'src/**/*.ts'
             dest: .
-    - image:  us.gcr.io/ticketapp-dev-283912/expiration
+    - image:  jayashri94/expiration
       context: expiration
       docker:
         dockerfile: Dockerfile
@@ -51,7 +51,7 @@ build:
         manual:
           - src: 'src/**/*.ts'
             dest: .
-    - image:  us.gcr.io/ticketapp-dev-283912/payments
+    - image: jayashri94/payments
       context: payments
       docker:
         dockerfile: Dockerfile
