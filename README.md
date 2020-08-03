@@ -60,4 +60,7 @@ Anyone can create a new ticket for sale (concert,sport event etc…) in the webs
 
 **Payment method - Stripe & Timer for expiration**
 
+card num - 4242 4242 4242 4242
+expiry date - any future value & CVV code - any 3 digit number
+
 ![ Images of the App](5.png)
