@@ -1,4 +1,4 @@
-#Ticket Spot - A microservice based application
+# Ticket Spot - A microservice based application
 
 Live Project link : http://www.myticketspot.live
 
