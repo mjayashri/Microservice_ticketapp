@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: expiration
-          image: us.gcr.io/ticketapp-dev-283912/expiration
+          image: jayashri94/expiration
           env:
             - name: NATS_CLIENT_ID
               valueFrom:
