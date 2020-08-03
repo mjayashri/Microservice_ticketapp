@@ -5,7 +5,7 @@ export default ({ req }) => {
     // We are on the server
 
     return axios.create({
-      baseURL: 'www.myticketspot.live/',
+      baseURL: 'http://www.myticketspot.live/',
       headers: req.headers
     });
   } else {
