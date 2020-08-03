@@ -39,3 +39,24 @@ Anyone can create a new ticket for sale (concert,sport event etc…) in the webs
 -	Server-Side-Rendereding using React Hooks and Next JS
 -	Limit access to your APIs using JWT-based authentication
 
+## App Working in Steps
+
+**Signin/Signup**
+
+![ Images of the App](1.png)
+
+**Create Ticket for sale** 
+
+![ Images of the App](2.png)
+
+**Buying tickets**
+
+![ Images of the App](3.png)
+
+**Payment method - Stripe**
+
+![ Images of the App](4.png)
+
+**Timer for expiration**
+
+![ Images of the App](5.png)
