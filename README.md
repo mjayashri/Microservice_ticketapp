@@ -26,6 +26,9 @@ Anyone can create a new ticket for sale (concert,sport event etc…) in the webs
 ### Payment 
 -	Stripe API
 
+### Testing
+Jest 
+
 ### Deployment
 -	Entire App is deployed using docker and kubernetes.
 -	**Digital Ocean** is used for production deployment 
@@ -35,11 +38,12 @@ Anyone can create a new ticket for sale (concert,sport event etc…) in the webs
 
 -	Name: @jaytickets/common
 
-### CI/CI deployment using github
+### CI/CD deployment using github
 
 ## Highlights and Important features I learned:
 
 -	Microservices & Event based Architecture and niches
+- Concurrency issues in Microservices
 -	Cloud Services (GCP)
 -	Reusability of coding
 -	Server-Side-Rendereding using React Hooks and Next JS
