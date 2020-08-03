@@ -57,3 +57,7 @@ Anyone can create a new ticket for sale (concert,sport event etc…) in the webs
 **Payment method - Stripe & Timer for expiration**
 
 ![ Images of the App](4.png)
+
+**Payment method - Stripe & Timer for expiration**
+
+![ Images of the App](5.png)
