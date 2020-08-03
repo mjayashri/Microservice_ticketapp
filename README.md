@@ -2,6 +2,8 @@
 
 Live Project link : http://www.myticketspot.live
 
+![ Main APP](AppView)
+
 ## Project details :
 
 The basic idea of the project is to develop an ticket sharing app service using microservice architecture. 
