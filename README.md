@@ -47,7 +47,7 @@ Anyone can create a new ticket for sale (concert,sport event etc…) in the webs
 
 ## App Working in Steps
 
-**Landing page**
+**Authorization Page**
 - Sign up and sign in
 
 ![ Images of the App](signin.png)
