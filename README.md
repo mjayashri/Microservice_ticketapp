@@ -2,7 +2,7 @@
 
 Live Project link : http://www.myticketspot.live
 
-![ Images of the App](AppView)
+![ Images of the App](AppView.png)
 
 ## Project details :
 
