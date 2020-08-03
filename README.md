@@ -41,7 +41,8 @@ Anyone can create a new ticket for sale (concert,sport event etc…) in the webs
 
 ## App Working in Steps
 
-**Signin/Signup**
+**Landing page**
+- Sign up and sign in
 
 ![ Images of the App](1.png)
 
@@ -53,10 +54,6 @@ Anyone can create a new ticket for sale (concert,sport event etc…) in the webs
 
 ![ Images of the App](3.png)
 
-**Payment method - Stripe**
+**Payment method - Stripe & Timer for expiration**
 
 ![ Images of the App](4.png)
-
-**Timer for expiration**
-
-![ Images of the App](5.png)
