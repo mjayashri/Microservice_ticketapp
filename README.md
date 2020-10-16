@@ -1,6 +1,6 @@
 # Ticket Spot - A microservice based application
 
-Live Project link : http://www.myticketspot.live
+Live Project link : http://www.myticketspot.live (not active)
 
 ![ Images of the App](AppView.png)
 
